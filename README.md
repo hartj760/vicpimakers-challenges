@@ -14,14 +14,17 @@ encourage a few brave souls to participate.  :-)
 ## Challenge Summary
 The challenge consists of 1 input and 10 outputs. For the purpose of self-
 evaluation, use the point system below:
-    Output #1 - #5:  3 points
-    Output #6 - #10: 2 points
+
+| tests           | score    |
+|:----------------|:---------|
+| Output #1 - #5  | 3 points |
+| Output #6 - #10 | 2 points |
 
 ### General Input
-    12, byte-size integers each ranging in value from 33 to 255 inclusive.
+* 12, byte-size integers each ranging in value from 33 to 255 inclusive.
 
 ### Test Input
-    72,111,63,85,61,56,118,121,61,69,63,61
+* 72,111,63,85,61,56,118,121,61,69,63,61
 
 ### Test Output
 ```
@@ -51,8 +54,8 @@ Output#10: Key (1 <= key <= 26)
 
 ## Submissions To Date
 | file              | requirements  | instructions            | notes                |
-| ------------------|:--------------|:------------------------|:---------------------|
-| jims_challenge.py | python3       | `$ python3 jims_challenge.py <list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py "72,111,63,85,61,56,118,121,61,69,63,61"` | work in progress     |
+|:------------------|:--------------|:------------------------|:---------------------|
+| jims_challenge.py | python3       | `$ python3 jims_challenge.py <list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | work in progress     |
 
 ## TODOs
 * Add a general test runner.
