@@ -1,26 +1,30 @@
-# VicPiMakers.ca Coding Challenge
-One of our vicpimakers.ca community members posed a fun programming challenge to
-the group. The requirement is to build a program that takes a list of integers as
-input and runs through a series of math and transformation exercises to test your
-coding skills. Your choice of programming language.
+# [VicPiMakers.ca](https://vicpimakers.ca) Coding Challenge
+One of our [vicpimakers.ca](https://vicpimakers.ca) community members posed a fun
+programming challenge to the group. The requirement is to build a program that takes
+a list of integers as input and runs through a series of math and transformation
+exercises to test your coding skills. Your choice of programming language.
 
 Original Challenge: https://vicpimakers.ca/projects/programming-challenges/
 
 I've posted this to GitHub to encourage our community to share their code.
-Since we're officially in the month of Hacktoberfest, I'm hoping we can
+Since we're officially in the month of
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/), I'm hoping we can
 encourage a few brave souls to participate.  :-)
 
 ## Challenge Summary
 The challenge consists of 1 input and 10 outputs. For the purpose of self-
 evaluation, use the point system below:
-    Output #1 - #5:  3 points
-    Output #6 - #10: 2 points
+
+| tests           | score    |
+|:----------------|:---------|
+| Output #1 - #5  | 3 points |
+| Output #6 - #10 | 2 points |
 
 ### General Input
-    12, byte-size integers each ranging in value from 33 to 255 inclusive.
+* 12, byte-size integers each ranging in value from 33 to 255 inclusive.
 
 ### Test Input
-    72,111,63,85,61,56,118,121,61,69,63,61
+* 72,111,63,85,61,56,118,121,61,69,63,61
 
 ### Test Output
 ```
@@ -50,13 +54,12 @@ Output#10: Key (1 <= key <= 26)
 
 ## Submissions To Date
 | file              | requirements  | instructions            | notes                |
-| ------------------|:--------------|:------------------------|:---------------------|
-| jims_challenge.py | python3       | `$ python3 jims_challenge.py <list_of_integers>` | work in progress     |
-|                   |               | Example:                                 |                      |
-|                   |               | `$ python3 python/jims_challenge.py "72,111,63,85,61,56,118,121,61,69,63,61"` ||
+|:------------------|:--------------|:------------------------|:---------------------|
+| jims_challenge.py | python3       | `$ python3 jims_challenge.py <list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | work in progress     |
 
 ## TODOs
 * Add a general test runner.
 * Add a python code example.
-* Github Actions support.
-* Present this to the vicpimakers.ca community and encourage submissions!
+* Add CI support.
+* Present this to the [vicpimakers.ca](https://vicpimakers.ca) community and
+encourage submissions!
