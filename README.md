@@ -24,7 +24,9 @@ evaluation, use the point system below:
 * 12, byte-size integers each ranging in value from 33 to 255 inclusive.
 
 ### Test Input
-* 72,111,63,85,61,56,118,121,61,69,63,61
+```
+72,111,63,85,61,56,118,121,61,69,63,61
+```
 
 ### Test Output
 ```
@@ -40,7 +42,7 @@ Output #7: 56,61,61,61,63,63,69,72,85,111,121 (sorted)
 Output #8: Ho?U=8vy=E?=
 ** Hint: derived from Output #7
 Output #9: HOUVYE (upper case)
-Output#10: Key (1 <= key <= 26)
+Output #10: key (1 <= key <= 26)
 ** “HOUVYE “(Output #9) is a coded word for “BIOPSY’ that has been encrypted
     using the Caesar Cipher. The Key unknown. Decipher “HOUVYE” to produce
     “BIOPSY’. Output #10 is the numerical value of Key.
@@ -55,10 +57,27 @@ Output#10: Key (1 <= key <= 26)
 ## Submissions To Date
 | file              | requirements  | instructions            | notes                |
 |:------------------|:--------------|:------------------------|:---------------------|
-| jims_challenge.py | python3       | `$ python3 jims_challenge.py <list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | work in progress     |
+| jims_challenge.py | python3       | `$ python3 python/jims_challenge.py <list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | work in progress     |
+
+## Automated Testing
+Since we have been provided with both the test input and output, a pytest script
+has been created to automate the testing process. Run the following:
+
+```
+$ pip install --user pytest
+$ pytest test_jims_challenge.py
+```
+
+For slightly more informative output, try:
+
+```
+$ pytest -s test_jims_challenge.py
+```
+
+If more solutions are added, we can update this pytest script to include the new
+code for testing (assuming it outputs to stdout).
 
 ## TODOs
-* Add a general test runner.
 * Add a python code example.
 * Add CI support.
 * Present this to the [vicpimakers.ca](https://vicpimakers.ca) community and
