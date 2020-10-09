@@ -1,4 +1,7 @@
 # [VicPiMakers.ca](https://vicpimakers.ca) Coding Challenge
+
+![python application](https://github.com/netserf/vicpimakers-challenges/workflows/python%20application/badge.svg)
+
 One of our [vicpimakers.ca](https://vicpimakers.ca) community members posed a fun
 programming challenge to the group. The requirement is to build a program that takes
 a list of integers as input and runs through a series of math and transformation
