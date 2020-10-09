@@ -11,17 +11,17 @@ ANSWERS = [
     "56,6",
     "5,61,61,61,63,63",
     "18543",
-    "56,61,61,61,63,63,69,72,85,111,121",
+    "56,61,61,61,63,63,69,72,85,111,118,121",
     "Ho?U=8vy=E?=",
     "HOUVYE",
-    "6",
+    "-6",
 ]
 
 
 @pytest.fixture
 def script_run():
     result = subprocess.run(
-        ["python/jims_challenge.py", '"72,111,63,85,61,56,118,121,61,69,63,61"'],
+        ["python/jims_challenge.py", "72,111,63,85,61,56,118,121,61,69,63,61"],
         stdout=subprocess.PIPE,
     )
     return result
