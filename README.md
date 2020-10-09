@@ -60,11 +60,12 @@ Output #10: key (1 <= key <= 26)
 ## Submissions To Date
 | file              | requirements  | instructions            | notes                |
 |:------------------|:--------------|:------------------------|:---------------------|
-| jims_challenge.py | python3       | `$ python3 python/jims_challenge.py <list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | work in progress     |
+| jims_challenge.py | python3       | `$ python3 python/jims_challenge.py \` <br/> `<list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | complete     |
 
 ## Automated Testing
 Since we have been provided with both the test input and output, a pytest script
-has been created to automate the testing process. Run the following:
+has been created to automate the testing process. Run the following to verify your
+solutions:
 
 ```
 $ pip install --user pytest
@@ -81,7 +82,6 @@ If more solutions are added, we can update this pytest script to include the new
 code for testing (assuming it outputs to stdout).
 
 ## TODOs
-* Add a python code example.
-* Add CI support.
+* Figure out a way to make the testing more universal.
 * Present this to the [vicpimakers.ca](https://vicpimakers.ca) community and
 encourage submissions!
