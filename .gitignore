@@ -110,3 +110,6 @@ vscode.code-workspace
 
 # Vim
 .swp
+
+# Temp directory
+tmp/
