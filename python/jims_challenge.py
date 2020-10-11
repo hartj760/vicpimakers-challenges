@@ -137,7 +137,6 @@ def caesar_decoder(characters):
 
 def valid_input(args):
     if len(args) != 2:
-        usage()
         return False
     return True
 
