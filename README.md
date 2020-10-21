@@ -85,3 +85,4 @@ code for testing (assuming it outputs to stdout).
 * Figure out a way to make the testing more universal.
 * Present this to the [vicpimakers.ca](https://vicpimakers.ca) community and
 encourage submissions!
+* Check PR process.
